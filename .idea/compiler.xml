@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="concurrent" />
+        <module name="date" />
+        <module name="Enum" />
+        <module name="file" />
+        <module name="hash" />
+        <module name="math" />
+        <module name="network" />
+        <module name="string" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="code-library" target="1.5" />
+      <module name="common" target="1.5" />
+      <module name="concurrent" target="1.5" />
+      <module name="date" target="1.5" />
+      <module name="Enum" target="1.5" />
+      <module name="file" target="1.5" />
+      <module name="hash" target="1.5" />
+      <module name="math" target="1.5" />
+      <module name="network" target="1.5" />
+      <module name="string" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
