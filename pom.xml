@@ -19,6 +19,7 @@
         <module>Math</module>
         <module>NetWork</module>
         <module>String</module>
+        <module>Distributed</module>
     </modules>
 
 

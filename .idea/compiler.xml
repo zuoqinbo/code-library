@@ -9,6 +9,7 @@
         <module name="common" />
         <module name="concurrent" />
         <module name="date" />
+        <module name="Distributed" />
         <module name="Enum" />
         <module name="file" />
         <module name="hash" />
@@ -22,6 +23,7 @@
       <module name="common" target="1.5" />
       <module name="concurrent" target="1.5" />
       <module name="date" target="1.5" />
+      <module name="Distributed" target="1.5" />
       <module name="Enum" target="1.5" />
       <module name="file" target="1.5" />
       <module name="hash" target="1.5" />
