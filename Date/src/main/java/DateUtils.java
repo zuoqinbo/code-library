@@ -1,3 +1,6 @@
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -33,4 +36,11 @@ public class DateUtils {
         return formatDateByPattern(date, dateFormat);
     }
 
+    public static void main(String[] args) {
+        Double completeRateDouble =  new BigDecimal(Double.toString(1)).divide(new BigDecimal(Double.toString(3)),4,BigDecimal.ROUND_HALF_UP).doubleValue();
+        NumberFormat percent = NumberFormat.getPercentInstance();
+        percent.setMinimumFractionDigits(2);//设置数的小数部分所允许的最小位数(如果不足后面补0)
+        String   completeRate = percent.format(completeRateDouble);
+        System.out.println(completeRate);
+    }
 }
