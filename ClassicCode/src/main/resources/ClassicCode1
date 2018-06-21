@@ -1,0 +1,34 @@
+
+    @Override
+    public Result invoke(Invoker<?> invoker, Invocation invocation) throws RpcException {
+        try {
+            String methodName = invocation.getMethodName();
+            Result result = invoker.invoke(invocation);
+            // 无异常或特殊接口直接返回结果
+            if (!result.hasException()
+                    || ConsumerMessageHandler.class == invoker.getInterface()
+                    || GenericService.class == invoker.getInterface()) {
+                return result;
+            }
+
+            // 待处理异常
+            Throwable exception = result.getException();
+
+            // 在方法签名上有声明，直接抛出
+            try {
+                Method method = invoker.getInterface().getMethod(invocation.getMethodName(), invocation.getParameterTypes());
+                Class<?>[] exceptionClasses = method.getExceptionTypes();
+                for (Class<?> exceptionClass : exceptionClasses) {
+                    if (exception.getClass().equals(exceptionClass)) {
+                        return result;
+                    }
+                }
+            } catch (NoSuchMethodException e) {
+                logger.error("no such method:" + invocation.getMethodName(), e);
+            }
+
+    logger.error("Got unchecked and undeclared exception which called by " + RpcContext.getContext().getRemoteHost()
+                    + ". service: " + invoker.getInterface().getName() + ", method: " + invocation.getMethodName()
+                    + ", exception: " + exception.getClass().getName() + ": " + exception.getMessage(), exception);
+
+     return new RpcResult(Response.builder().failBStatus(ResponseCode.UNKNOWN_ERROR, "未知错误").build());

@@ -20,6 +20,11 @@
         <module>NetWork</module>
         <module>String</module>
         <module>Distributed</module>
+        <module>monitor</module>
+        <module>ClassicCode</module>
+        <module>Dubbo</module>
+        <module>Interceptor</module>
+        <module>Aop</module>
     </modules>
 
 

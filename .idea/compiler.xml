@@ -6,28 +6,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Aop" />
+        <module name="ClassicCode" />
         <module name="common" />
         <module name="concurrent" />
         <module name="date" />
         <module name="Distributed" />
+        <module name="Dubbo" />
         <module name="Enum" />
         <module name="file" />
         <module name="hash" />
+        <module name="Interceptor" />
         <module name="math" />
+        <module name="Monitor" />
         <module name="network" />
         <module name="string" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Aop" target="1.5" />
+      <module name="ClassicCode" target="1.5" />
       <module name="code-library" target="1.5" />
       <module name="common" target="1.5" />
       <module name="concurrent" target="1.5" />
       <module name="date" target="1.5" />
       <module name="Distributed" target="1.5" />
+      <module name="Dubbo" target="1.5" />
       <module name="Enum" target="1.5" />
       <module name="file" target="1.5" />
       <module name="hash" target="1.5" />
+      <module name="Interceptor" target="1.5" />
       <module name="math" target="1.5" />
+      <module name="Monitor" target="1.5" />
       <module name="network" target="1.5" />
       <module name="string" target="1.5" />
     </bytecodeTargetLevel>
