@@ -6,8 +6,6 @@ import com.alibaba.dubbo.common.logger.Logger;
 import com.alibaba.dubbo.common.logger.LoggerFactory;
 import com.alibaba.dubbo.rpc.*;
 import com.alibaba.dubbo.rpc.service.GenericService;
-import com.qunar.car.flash.common.metrics.ZtcMetrics;
-import com.qunar.car.flash.common.metrics.ZtcMetrics.Context;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.exception.ExceptionUtils;
 

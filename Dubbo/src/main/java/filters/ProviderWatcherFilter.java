@@ -5,20 +5,9 @@ import com.alibaba.dubbo.common.extension.Activate;
 import com.alibaba.dubbo.rpc.*;
 import com.alibaba.dubbo.rpc.service.GenericService;
 import com.google.common.base.Strings;
-import com.qunar.car.flash.common.exceptions.BusinessException;
-import com.qunar.car.flash.common.metrics.ZtcMetrics;
-import com.qunar.car.flash.common.metrics.ZtcMetrics.Context;
-import com.qunar.car.flash.common.monitor.util.ErrorCodeUtil;
-import com.qunar.car.flash.common.utils.JsonUtils;
-import com.qunar.car.trace.util.QTraceUtil;
-import com.qunar.mobile.car.common.log.ReqLogDataManager;
-import com.qunar.mobile.car.common.log.UnifyLogger;
-import com.qunar.mobile.car.common.log.consts.CommReqParamKeyConst;
 import org.apache.commons.lang.BooleanUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.exception.ExceptionUtils;
-import qunar.tc.qmq.base.BaseMessage;
-import qunar.tc.qmq.service.ConsumerMessageHandler;
 
 import java.util.UUID;
 

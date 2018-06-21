@@ -1,8 +1,3 @@
-import com.qunar.car.flash.common.constants.ResponseCode;
-import com.qunar.car.flash.common.exceptions.BusinessException;
-import com.qunar.car.flash.common.pojo.BStatus;
-import com.qunar.mobile.carpool.ztc.log.UnifyLogger;
-
 import java.util.concurrent.Callable;
 
 /**

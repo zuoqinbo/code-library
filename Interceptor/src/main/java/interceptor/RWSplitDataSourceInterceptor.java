@@ -1,10 +1,5 @@
 package interceptor;
 
-import com.qunar.mobile.car.common.datasource.DsLogConstant;
-import com.qunar.mobile.car.common.datasource.DynamicDataSourceInterceptor;
-import com.qunar.mobile.car.common.datasource.DynamicDataSourceKey;
-import com.qunar.mobile.car.common.datasource.DynamicDataSourceKeyImpl;
-import com.qunar.mobile.car.common.log.UnifyLogger;
 import org.aopalliance.intercept.MethodInvocation;
 import org.apache.commons.lang.StringUtils;
 

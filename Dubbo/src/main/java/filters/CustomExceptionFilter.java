@@ -9,17 +9,8 @@ import com.alibaba.dubbo.common.logger.Logger;
 import com.alibaba.dubbo.common.logger.LoggerFactory;
 import com.alibaba.dubbo.rpc.*;
 import com.alibaba.dubbo.rpc.service.GenericService;
-import com.qunar.car.flash.common.constants.CommonLogId;
-import com.qunar.car.flash.common.constants.ResponseCode;
-import com.qunar.car.flash.common.exceptions.BusinessException;
-import com.qunar.car.flash.common.pojo.BStatus;
-import com.qunar.car.flash.common.pojo.Response;
-import com.qunar.mobile.carpool.ztc.log.UnifyLogger;
 import org.apache.commons.collections4.MapUtils;
 import org.apache.commons.lang3.StringUtils;
-import qunar.tc.qconfig.client.Configuration;
-import qunar.tc.qconfig.client.MapConfig;
-import qunar.tc.qmq.service.ConsumerMessageHandler;
 
 import java.lang.reflect.Method;
 import java.util.Map;

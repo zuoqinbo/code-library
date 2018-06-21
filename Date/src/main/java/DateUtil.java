@@ -1,4 +1,3 @@
-import com.qunar.car.qb.flight.api.model.flight.FlightDate;
 import org.apache.commons.lang.StringUtils;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
