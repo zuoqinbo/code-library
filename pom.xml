@@ -25,6 +25,10 @@
         <module>Dubbo</module>
         <module>Interceptor</module>
         <module>Aop</module>
+        <module>StateMachine</module>
+        <module>Lock</module>
+        <module>Mq</module>
+        <module>SpringClient</module>
     </modules>
 
 

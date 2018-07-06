@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2017 Qunar.com. All Rights Reserved.
+ * Copyright (c) 2017 xxx.com. All Rights Reserved.
  */
 package filters;
 

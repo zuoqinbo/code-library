@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015 Qunar.com. All Rights Reserved.
+ * Copyright (c) 2015 xxx.com. All Rights Reserved.
  */
 package interceptor;
 

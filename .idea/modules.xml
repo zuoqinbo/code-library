@@ -8,7 +8,11 @@
       <module fileurl="file://$PROJECT_DIR$/Dubbo/Dubbo.iml" filepath="$PROJECT_DIR$/Dubbo/Dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Enum/Enum.iml" filepath="$PROJECT_DIR$/Enum/Enum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interceptor/Interceptor.iml" filepath="$PROJECT_DIR$/Interceptor/Interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lock/Lock.iml" filepath="$PROJECT_DIR$/Lock/Lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitor/Monitor.iml" filepath="$PROJECT_DIR$/monitor/Monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mq/Mq.iml" filepath="$PROJECT_DIR$/Mq/Mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringClient/SpringClient.iml" filepath="$PROJECT_DIR$/SpringClient/SpringClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StateMachine/StateMachine.iml" filepath="$PROJECT_DIR$/StateMachine/StateMachine.iml" />
       <module fileurl="file://$PROJECT_DIR$/code-library.iml" filepath="$PROJECT_DIR$/code-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/Common/common.iml" filepath="$PROJECT_DIR$/Common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/Concurrent/concurrent.iml" filepath="$PROJECT_DIR$/Concurrent/concurrent.iml" />

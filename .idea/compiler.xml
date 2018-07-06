@@ -17,9 +17,13 @@
         <module name="file" />
         <module name="hash" />
         <module name="Interceptor" />
+        <module name="Lock" />
         <module name="math" />
         <module name="Monitor" />
+        <module name="Mq" />
         <module name="network" />
+        <module name="SpringClient" />
+        <module name="StateMachine" />
         <module name="string" />
       </profile>
     </annotationProcessing>
@@ -36,9 +40,13 @@
       <module name="file" target="1.5" />
       <module name="hash" target="1.5" />
       <module name="Interceptor" target="1.5" />
+      <module name="Lock" target="1.5" />
       <module name="math" target="1.5" />
       <module name="Monitor" target="1.5" />
+      <module name="Mq" target="1.5" />
       <module name="network" target="1.5" />
+      <module name="SpringClient" target="1.5" />
+      <module name="StateMachine" target="1.5" />
       <module name="string" target="1.5" />
     </bytecodeTargetLevel>
   </component>
