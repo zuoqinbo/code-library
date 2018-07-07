@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<xsd:schema xmlns="http://www.qunar.com/schema/qschedule"
+<xsd:schema xmlns="http://www.xxx.com/schema/qschedule"
             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-            targetNamespace="http://www.qunar.com/schema/qschedule">
+            targetNamespace="http://www.xxx.com/schema/qschedule">
 
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:import namespace="http://www.springframework.org/schema/beans"/>
     <xsd:import namespace="http://www.springframework.org/schema/tool"/>
 
     <xsd:annotation>
-        <xsd:documentation><![CDATA[ Namespace support for the qschedule provided by Qunar. ]]></xsd:documentation>
+        <xsd:documentation><![CDATA[ Namespace support for the qschedule provided by DD. ]]></xsd:documentation>
     </xsd:annotation>
 
     <xsd:complexType name="configType">

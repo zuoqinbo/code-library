@@ -29,6 +29,7 @@
         <module>Lock</module>
         <module>Mq</module>
         <module>SpringClient</module>
+        <module>Aync</module>
     </modules>
 
 

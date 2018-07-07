@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Aop/Aop.iml" filepath="$PROJECT_DIR$/Aop/Aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aync/Aync.iml" filepath="$PROJECT_DIR$/Aync/Aync.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClassicCode/ClassicCode.iml" filepath="$PROJECT_DIR$/ClassicCode/ClassicCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Distributed/Distributed.iml" filepath="$PROJECT_DIR$/Distributed/Distributed.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dubbo/Dubbo.iml" filepath="$PROJECT_DIR$/Dubbo/Dubbo.iml" />

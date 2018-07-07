@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Aop" />
+        <module name="Aync" />
         <module name="ClassicCode" />
         <module name="common" />
         <module name="concurrent" />
@@ -29,6 +30,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Aop" target="1.5" />
+      <module name="Aync" target="1.5" />
       <module name="ClassicCode" target="1.5" />
       <module name="code-library" target="1.5" />
       <module name="common" target="1.5" />
