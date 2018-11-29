@@ -30,6 +30,8 @@
         <module>Mq</module>
         <module>SpringClient</module>
         <module>Aync</module>
+        <module>Service</module>
+        <module>Controller</module>
     </modules>
 
 

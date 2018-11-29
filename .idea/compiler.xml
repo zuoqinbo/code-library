@@ -11,6 +11,7 @@
         <module name="ClassicCode" />
         <module name="common" />
         <module name="concurrent" />
+        <module name="Controller" />
         <module name="date" />
         <module name="Distributed" />
         <module name="Dubbo" />
@@ -23,6 +24,7 @@
         <module name="Monitor" />
         <module name="Mq" />
         <module name="network" />
+        <module name="Service" />
         <module name="SpringClient" />
         <module name="StateMachine" />
         <module name="string" />
@@ -35,6 +37,7 @@
       <module name="code-library" target="1.5" />
       <module name="common" target="1.5" />
       <module name="concurrent" target="1.5" />
+      <module name="Controller" target="1.5" />
       <module name="date" target="1.5" />
       <module name="Distributed" target="1.5" />
       <module name="Dubbo" target="1.5" />
@@ -47,6 +50,7 @@
       <module name="Monitor" target="1.5" />
       <module name="Mq" target="1.5" />
       <module name="network" target="1.5" />
+      <module name="Service" target="1.5" />
       <module name="SpringClient" target="1.5" />
       <module name="StateMachine" target="1.5" />
       <module name="string" target="1.5" />
